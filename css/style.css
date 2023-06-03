@@ -8,6 +8,7 @@
 }
 
 .attribution {
+  margin-top: auto;
   font-size: 11px;
   text-align: center;
 }
@@ -25,18 +26,19 @@
 }
 
 .container {
-  width: 80%;
+  margin-top: auto;
+  max-width: 80%;
   display: flex;
   justify-content: center;
   align-items: center;
   border-radius: 20px;
-  height: 56%;
+  min-height: 55%;
   box-shadow: 20px 10px 50px -20px hsla(234, 85%, 45%, 0.1);
 }
 
 .left-half {
   width: 50%;
-  height: 100%;
+  min-height: 100%;
   border-radius: 20px;
   background: rgb(120, 87, 255);
   background: linear-gradient(
@@ -47,6 +49,16 @@
   display: flex;
   flex-direction: column;
   align-items: center;
+}
+
+.right-half {
+  width: 50%;
+  min-height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding-left: 2em;
+  gap: 1em;
 }
 
 .circle {
@@ -97,16 +109,6 @@ p,
   margin-bottom: 5px;
 }
 
-.right-half {
-  width: 50%;
-  height: 100%;
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  padding-left: 2em;
-  gap: 1em;
-}
-
 .right-half h4 {
   display: inline;
 }
@@ -124,7 +126,7 @@ p,
 
 .results {
   padding-bottom: 2em;
-  height: 10%;
+  height: 45px;
   width: 90%;
   padding: 1em;
   border-radius: 0.5em;
@@ -159,6 +161,7 @@ p,
   border: 0;
   width: 90%;
   margin-top: 1em;
+  margin-bottom: 2em;
   height: 3em;
   color: white;
   font-weight: bold;
