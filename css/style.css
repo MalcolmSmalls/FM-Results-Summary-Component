@@ -30,7 +30,7 @@
   justify-content: center;
   align-items: center;
   border-radius: 20px;
-  height: 60%;
+  height: 56%;
   box-shadow: 20px 10px 50px -20px hsla(234, 85%, 45%, 0.1);
 }
 
@@ -71,7 +71,7 @@
 
 .left-half p {
   text-align: center;
-  width: 70%;
+  width: 60%;
   color: rgb(200, 192, 255);
   font-size: 0.9em;
 }
@@ -104,6 +104,7 @@ p,
   flex-direction: column;
   align-items: flex-start;
   padding-left: 2em;
+  gap: 1em;
 }
 
 .right-half h4 {
@@ -114,6 +115,9 @@ p,
   color: hsl(224, 30%, 27%);
 }
 
+.right-half h2 {
+  margin-bottom: 0.6em;
+}
 .right-half span {
   font-weight: bold;
 }
@@ -121,7 +125,7 @@ p,
 .results {
   padding-bottom: 2em;
   height: 10%;
-  width: 80%;
+  width: 90%;
   padding: 1em;
   border-radius: 0.5em;
   display: flex;
@@ -129,20 +133,44 @@ p,
   justify-content: space-between;
 }
 
-.nums {
-  align-self: flex-end;
+.reaction {
+  color: rgb(247, 139, 139);
+  background-color: hsla(0, 100%, 67%, 0.05);
+}
+.memory {
+  color: rgb(232, 176, 57);
+  background-color: hsla(39, 100%, 56%, 0.05);
+}
+.verbal {
+  color: rgb(37, 158, 127);
+  background-color: hsla(166, 100%, 37%, 0.05);
+}
+.visual {
+  color: rgb(34, 38, 145);
+  background-color: hsla(234, 85%, 45%, 0.05);
 }
 
-.right-half {
+.nums {
   color: rgb(162, 157, 164);
 }
 
-.reaction h4 {
-  color: rgb(247, 139, 139);
+.continue-btn {
+  border-radius: 2em;
+  border: 0;
+  width: 90%;
+  margin-top: 1em;
+  height: 3em;
+  color: white;
+  font-weight: bold;
+  background: linear-gradient(
+    180deg,
+    rgba(120, 87, 255, 1) 0%,
+    rgba(46, 43, 233, 1) 100%
+  );
 }
 
-.reaction {
-  background-color: hsla(0, 100%, 67%, 0.05);
+.continue-btn:hover {
+  cursor: pointer;
 }
 
 /******************************************
