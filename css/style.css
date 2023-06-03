@@ -23,6 +23,7 @@
   justify-content: center;
   align-items: center;
   flex-direction: column;
+  font-family: 'Hanken Grotesk', sans-serif;
 }
 
 .container {
@@ -76,6 +77,10 @@
   );
 }
 
+.circle span {
+  font-size: 0.9em;
+}
+
 .circle h1 {
   font-size: 50px;
   margin-bottom: 0px;
@@ -84,6 +89,7 @@
 .left-half p {
   text-align: center;
   width: 60%;
+  line-height: 1.4em;
   color: rgb(200, 192, 255);
   font-size: 0.9em;
 }
