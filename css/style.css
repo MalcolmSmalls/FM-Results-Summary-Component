@@ -192,6 +192,28 @@ p,
   cursor: pointer;
 }
 
+@media only screen and (max-width: 415px) {
+  .body {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    width: 100vw;
+  }
+  .container {
+    max-width: 100%;
+
+    display: flex;
+    flex-direction: column;
+  }
+  .left-half {
+    height: 1em;
+    min-width: 100vw;
+  }
+  .right-half {
+    min-width: 100vw;
+  }
+}
 /******************************************
 /* LAYOUT
 /*******************************************/
