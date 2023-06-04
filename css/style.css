@@ -162,6 +162,16 @@ p,
   color: rgb(162, 157, 164);
 }
 
+.results i {
+  font-size: 0.8em;
+  padding-right: 0.8em;
+}
+
+.icondiv {
+  display: flex;
+  align-items: center;
+}
+
 .continue-btn {
   border-radius: 2em;
   border: 0;
