@@ -198,17 +198,24 @@ p,
     flex-direction: column;
     justify-content: flex-start;
     align-items: flex-start;
-    width: 100vw;
+    width: 86vw;
+    height: 125vh;
   }
   .container {
-    max-width: 100%;
-
+    width: 100%;
+    min-height: 52%;
     display: flex;
     flex-direction: column;
   }
+
   .left-half {
     height: 1em;
-    min-width: 100vw;
+    min-width: 100%;
+  }
+
+  .left-half {
+    padding-top: 10%;
+    border-radius: 1em;
   }
   .right-half {
     min-width: 100vw;
