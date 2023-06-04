@@ -198,7 +198,7 @@ p,
     flex-direction: column;
     justify-content: flex-start;
     align-items: flex-start;
-    width: 86vw;
+    width: 125vw;
     height: 125vh;
   }
   .container {
@@ -210,7 +210,7 @@ p,
 
   .left-half {
     height: 1em;
-    min-width: 100%;
+    min-width: 95%;
   }
 
   .left-half {
@@ -219,6 +219,10 @@ p,
   }
   .right-half {
     min-width: 100vw;
+  }
+
+  .attribution {
+    width: 100vw;
   }
 }
 /******************************************
