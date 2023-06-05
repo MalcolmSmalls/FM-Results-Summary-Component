@@ -199,18 +199,18 @@ p,
     justify-content: flex-start;
     align-items: flex-start;
     width: 125vw;
-    height: 125vh;
+    height: 100vh;
   }
   .container {
     width: 100%;
-    min-height: 52%;
+    min-height: 30%;
     display: flex;
     flex-direction: column;
   }
 
   .left-half {
     height: 1em;
-    min-width: 95%;
+    min-width: 100%;
   }
 
   .left-half {
@@ -223,6 +223,11 @@ p,
 
   .attribution {
     width: 100vw;
+  }
+
+  .continue-btn {
+    background: none;
+    background-color: hsl(224, 30%, 27%);
   }
 }
 /******************************************
